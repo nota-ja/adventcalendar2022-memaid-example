@@ -10,7 +10,7 @@ sequenceDiagram
     Source 1->>Alice: 
     Alice->>Source 2: 情報2取得
     Source 2->>Alice: 
-    Alice->>Alice: 結果=情報1+情報2
-    Alice->>Service A: 結果格納
+    Alice->>Service A: 情報1, 情報2
+    Service A->>Service A: 結果=情報1+情報2
     Service A->>Database A: 結果格納
 ```
