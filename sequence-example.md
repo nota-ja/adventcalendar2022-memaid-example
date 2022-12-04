@@ -1,8 +1,8 @@
 ```mermaid
 sequenceDiagram
-    actor Alice
     participant Source 1
     participant Source 2
+    actor Alice
     participant Service A
     participant Database A
 
